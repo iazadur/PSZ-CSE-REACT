@@ -6,7 +6,7 @@ import logo from '../../logo.png';
 
 const Header = () => {
     return (
-        <Navbar bg="light" expand="lg">
+        <Navbar bg="white" expand="lg">
             <Container>
                 <Navbar.Brand href="#home">
                     <img
@@ -16,7 +16,7 @@ const Header = () => {
                         height="30"
                         className="d-inline-block align-top"
                     />{' '}
-                    <b>PSZ-CSE</b>
+                    <b>PSZ</b>-CSE
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarScroll" />
                 <Navbar.Collapse className="justify-content-end" id="navbarScroll">
@@ -25,7 +25,7 @@ const Header = () => {
                         style={{ maxHeight: '100px' }}
                         navbarScroll
                     >
-                        <NavLink className="text-dark text-decoration-none" to="/">Home</NavLink>
+                        <NavLink activeClassName="selected" className="text-dark text-decoration-none" to="/">Home</NavLink>
                         <NavLink className="text-dark ms-5 text-decoration-none" to="/about">About</NavLink>
                         <NavLink className="text-dark ms-5 text-decoration-none" to="/service">Services</NavLink>
                     </Nav>
