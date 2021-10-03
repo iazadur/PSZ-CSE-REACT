@@ -1,25 +1,49 @@
 import React from 'react';
-import { Nav, Navbar } from 'react-bootstrap';
+import { Container, Nav, Navbar } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
+import logo from '../../logo.png';
+
 
 const Header = () => {
     return (
         <Navbar bg="light" expand="lg">
-            <Navbar.Brand href="#">Navbar scroll</Navbar.Brand>
-            <Navbar.Toggle aria-controls="navbarScroll" />
-            <Navbar.Collapse id="navbarScroll">
-                <Nav
-                    className="mr-auto my-2 my-lg-0"
-                    style={{ maxHeight: '100px' }}
-                    navbarScroll
-                >
-                    <NavLink href="#action1">Home</NavLink>
-                    <NavLink href="#action2">About</NavLink>
-                    <NavLink href="#action2">Services</NavLink>
-                </Nav>
+            <Container>
+                <Navbar.Brand href="#home">
+                    <img
+                        alt=""
+                        src={logo}
+                        width="30"
+                        height="30"
+                        className="d-inline-block align-top"
+                    />{' '}
+                    <b>PSZ-CSE</b>
+                </Navbar.Brand>
+                <Navbar.Toggle aria-controls="navbarScroll" />
+                <Navbar.Collapse className="justify-content-end" id="navbarScroll">
+                    <Nav
+                        className="my-2 my-lg-0  text-dark"
+                        style={{ maxHeight: '100px' }}
+                        navbarScroll
+                    >
+                        <NavLink className="text-dark text-decoration-none" to="/">Home</NavLink>
+                        <NavLink className="text-dark ms-5 text-decoration-none" to="/about">About</NavLink>
+                        <NavLink className="text-dark ms-5 text-decoration-none" to="/service">Services</NavLink>
+                    </Nav>
 
-            </Navbar.Collapse>
+                </Navbar.Collapse>
+            </Container>
         </Navbar>
+        //         <Navbar>
+        //   <Container>
+        //     <Navbar.Brand href="#home">Navbar with text</Navbar.Brand>
+        //     <Navbar.Toggle />
+        //     <Navbar.Collapse className="justify-content-end">
+        //       <Navbar.Text>
+        //         Signed in as: <a href="#login">Mark Otto</a>
+        //       </Navbar.Text>
+        //     </Navbar.Collapse>
+        //   </Container>
+        // </Navbar>
     );
 };
 
