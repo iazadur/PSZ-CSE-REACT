@@ -28,6 +28,7 @@ const Header = () => {
                         <NavLink activeClassName="selected" className="text-dark text-decoration-none" to="/">Home</NavLink>
                         <NavLink className="text-dark ms-5 text-decoration-none" to="/about">About</NavLink>
                         <NavLink className="text-dark ms-5 text-decoration-none" to="/service">Services</NavLink>
+                        <NavLink className="text-dark ms-5 text-decoration-none" to="/faq">FAQ</NavLink>
                     </Nav>
 
                 </Navbar.Collapse>
