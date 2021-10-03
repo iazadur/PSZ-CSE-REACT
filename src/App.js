@@ -9,6 +9,7 @@ import About from './components/About/About';
 import Services from './components/Services/Services';
 import Home from './components/Home/Home';
 import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -21,10 +22,14 @@ function App() {
         <Route path="/service">
           <Services />
         </Route>
+        <Route path="/faq">
+          <Services />
+        </Route>
         <Route path="/">
           <Home />
         </Route>
       </Switch>
+      <Footer></Footer>
     </Router>
   );
 }
