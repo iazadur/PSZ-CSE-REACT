@@ -1,11 +1,28 @@
-import React from 'react';
+// import React, { useEffect, useState } from 'react';
 import { Accordion, Container } from 'react-bootstrap';
 
 const Faq = () => {
+    // const [ques, setQues] = useState([])
+    // useEffect(() => {
+    //     fetch('/Faq.json')
+    //         .then(res => res.json())
+    //     .then(data=>setQues(data))
+    // },[])
     return (
         <Container style={{ marginTop: "100px" }}>
             <h1>Common Question About DUET Admission</h1>
             <Accordion defaultActiveKey="0">
+                {/* {
+                    quess.map((q,i) => 
+                        <Accordion.Item eventKey={i}>
+                        <Accordion.Header>{q.ques}</Accordion.Header>
+                        <Accordion.Body>
+                            {q.ans}
+                        </Accordion.Body>
+                    </Accordion.Item>
+                    )
+                } */}
+
                 <Accordion.Item eventKey="0">
                     <Accordion.Header>Accordion Item #1</Accordion.Header>
                     <Accordion.Body>
