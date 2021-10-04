@@ -1,5 +1,10 @@
+import { faCoffee } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
+
 import React from 'react';
 import { Col, Container, Row, Stack } from 'react-bootstrap';
+import { NavLink } from 'react-router-dom';
 
 const Footer = () => {
     return (
@@ -9,16 +14,15 @@ const Footer = () => {
                 <Row>
                     <Col sm>
                         <Stack direction="horizontal" gap={3}>
-                            <div className="bg-light border">First item</div>
-                            <div className="bg-light border">Second item</div>
-                            <div className="bg-light border">Third item</div>
+                        <FontAwesomeIcon icon={faCoffee} />
                         </Stack>
                     </Col>
                     <Col sm>
                         <Stack gap={3}>
-                            <div className="bg-light border">First item</div>
-                            <div className="bg-light border">Second item</div>
-                            <div className="bg-light border">Third item</div>
+                            <NavLink activeClassName="selected" className="text-dark text-decoration-none ms-5" to="/">Home</NavLink>
+                            <NavLink className="text-dark ms-5 text-decoration-none" to="/about">About</NavLink>
+                            <NavLink className="text-dark ms-5 text-decoration-none" to="/service">Services</NavLink>
+                            <NavLink className="text-dark ms-5 text-decoration-none" to="/faq">FAQ</NavLink>
                         </Stack>
                     </Col>
                 </Row>

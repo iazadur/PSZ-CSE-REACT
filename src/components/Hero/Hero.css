@@ -1,0 +1,20 @@
+.hero-btn{
+background-color:  #2B4EFF;
+}
+.hero{
+    height: 70vh;
+  
+}
+.hero-text{
+    height: 70vh;
+    color:#2B4EFF;
+}
+.text-area{
+width: 500px;
+}
+.fontsize{
+    font-size: 60px;
+}
+.hero-img{
+    width: 500px;
+}
