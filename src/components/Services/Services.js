@@ -13,7 +13,7 @@ const Services = ({ services, len }) => {
         homeServices = services
     }
     return (
-        <Container style={{ marginTop: "200px" }}>
+        <Container style={{ marginTop: "100px" }}>
             <div className="services my-5">
                 <div className="text-end">
                     <h1 className="fontsize fw-bolder">Why An Scholercity Out <br /> Of The Ordinary</h1>

@@ -13,7 +13,7 @@ const Course = ({courses,len}) => {
     }
     
     return (
-        <Container>
+        <Container style={{ marginTop: "100px" }}>
             <div className="services my-5">
                 <div className="text-start">
                     <h1 className="fontsize fw-bolder">Find The Right <br /> Online Course For You</h1>
