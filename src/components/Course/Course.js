@@ -3,8 +3,8 @@ import { faStar, faClock } from '@fortawesome/free-solid-svg-icons'
 import { Card, Col, Container, Row } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
-const Course = ({courses,len}) => {
-    
+const Course = ({ courses, len }) => {
+
 
     let homeCourses = []
     if (len) {
@@ -20,7 +20,7 @@ const Course = ({courses,len}) => {
                     <p className="text-muted">You don't have to struggle alone, you've got our assistance and help.</p>
                 </div>
                 <Row xs={1} md={4} lg={4} className="g-4">
-                   
+
                     {homeCourses.map((course, i) => (
 
                         <Col key={i}>
