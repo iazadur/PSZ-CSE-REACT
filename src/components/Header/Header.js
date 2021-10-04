@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import logo from '../../logo.png';
 import "./Header.css"
 
@@ -9,7 +9,8 @@ const Header = () => {
     return (
         <Navbar bg="white" expand="lg">
             <Container>
-                <Navbar.Brand href="#home">
+                <Navbar.Brand>
+                    <Link className="text-dark ms-5 text-decoration-none" to="/">
                     <img
                         alt=""
                         src={logo}
@@ -18,6 +19,7 @@ const Header = () => {
                         className="d-inline-block align-top"
                     />{' '}
                     <b>PSZ</b>-CSE
+                    </Link>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarScroll" />
                 <Navbar.Collapse className="justify-content-end" id="navbarScroll">
@@ -27,8 +29,9 @@ const Header = () => {
                         navbarScroll
                     >
                         <NavLink activeClassName="selected" className="text-dark text-decoration-none ms-5" to="/">Home</NavLink>
-                        <NavLink className="text-dark ms-5 text-decoration-none" to="/about">About</NavLink>
+                        <NavLink className="text-dark ms-5 text-decoration-none" to="/course">Courses</NavLink>
                         <NavLink className="text-dark ms-5 text-decoration-none" to="/service">Services</NavLink>
+                        <NavLink className="text-dark ms-5 text-decoration-none" to="/about">About</NavLink>
                         <NavLink className="text-dark ms-5 text-decoration-none" to="/faq">FAQ</NavLink>
                     </Nav>
 

@@ -2,5 +2,9 @@
     {"id":"01","name":"Algebra","price":"1000","status":"offline","subject":"Math","color":"#2D69F0"},
     {"id":"02","name":"Trigonometry","price":"600","status":"offline","subject":"Math","color":"#DD246E"},
     {"id":"03","name":"Geometry","price":"1000","status":"offline","subject":"Math","color":"#8007E6"},
-    {"id":"04","name":"Calculas","price":"1000","status":"offline","subject":"Math","color":"#0CAE74"}
+    {"id":"04","name":"Calculas","price":"1000","status":"offline","subject":"Math","color":"#0CAE74"},
+    {"id":"05","name":"Algebra","price":"1000","status":"offline","subject":"Math","color":"#2D69F0"},
+    {"id":"06","name":"Trigonometry","price":"600","status":"offline","subject":"Math","color":"#DD246E"},
+    {"id":"07","name":"Geometry","price":"1000","status":"offline","subject":"Math","color":"#8007E6"},
+    {"id":"08","name":"Calculas","price":"1000","status":"offline","subject":"Math","color":"#0CAE74"}
 ]
