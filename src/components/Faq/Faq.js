@@ -3,7 +3,7 @@ import { Accordion, Container } from 'react-bootstrap';
 
 const Faq = () => {
     return (
-        <Container className="my-5" style={{ marginTop: "200px" }}>
+        <Container style={{ marginTop: "100px" }}>
             <Accordion defaultActiveKey="0">
                 <Accordion.Item eventKey="0">
                     <Accordion.Header>Accordion Item #1</Accordion.Header>
