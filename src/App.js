@@ -14,6 +14,7 @@ import Course from './components/Course/Course';
 import NotFound from './components/NotFound/NotFound';
 import { useEffect, useState } from 'react';
 import Faq from './components/Faq/Faq';
+import CourseDetails from './components/CourseDetails/CourseDetails';
 
 function App() {
   const [services, setServices] = useState([])
@@ -41,6 +42,9 @@ function App() {
         </Route>
         <Route exact path="/course">
           <Course courses={courses} />
+        </Route>
+        <Route exact path="/course/:id">
+          <CourseDetails courses={courses} />
         </Route>
         <Route exact path="/faq">
           <Faq></Faq>

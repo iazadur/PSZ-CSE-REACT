@@ -1,6 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faStar, faClock } from '@fortawesome/free-solid-svg-icons'
 import { Card, Col, Container, Row } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 const Course = ({courses,len}) => {
     
@@ -11,7 +12,6 @@ const Course = ({courses,len}) => {
     } else {
         homeCourses = courses
     }
-    
     return (
         <Container style={{ marginTop: "100px" }}>
             <div className="services my-5">
@@ -38,7 +38,7 @@ const Course = ({courses,len}) => {
                                 </Card.Body>
                                 <div className="card-footer d-flex justify-content-between align-items-center">
                                     <h4 className="fw-bloder fs-4" style={{ color: `${course.color}` }}>${course.price}</h4>
-                                    <p className="fs-5 fw-normal">view details</p>
+                                    <Link to={`/course/${course.id}`} className="fs-6 fw-normal">view details</Link>
                                 </div>
                             </Card>
                         </Col>

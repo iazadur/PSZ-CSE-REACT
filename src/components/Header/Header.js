@@ -6,6 +6,10 @@ import "./Header.css"
 
 
 const Header = () => {
+    const active = {
+        fontWeight: "bold",
+        color: "red"
+    }
     return (
         <Navbar bg="white" className="py-3 shadow-lg" fixed="top" expand="lg">
             <Container>
@@ -33,31 +37,19 @@ const Header = () => {
                             to="/">Home</NavLink>
                         <div className="vr" />
 
-                        <NavLink activeStyle={{
-                            fontWeight: "bold",
-                            color: "red"
-                        }} className="text-dark mx-3 hover text-decoration-none" to="/course">Courses</NavLink>
+                        <NavLink activeStyle={active} className="text-dark mx-3 hover text-decoration-none" to="/course">Courses</NavLink>
                         <div className="vr" />
 
-                        <NavLink activeStyle={{
-                            fontWeight: "bold",
-                            color: "red"
-                        }} className="text-dark mx-3 hover text-decoration-none" to="/service">Services</NavLink>
+                        <NavLink activeStyle={active} className="text-dark mx-3 hover text-decoration-none" to="/service">Services</NavLink>
                         <div className="vr" />
 
                         <NavLink
-                            activeStyle={{
-                                fontWeight: "bold",
-                                color: "red",
-                            }}
+                            activeStyle={active}
                             className="text-dark mx-3 text-decoration-none hover" to="/about">About</NavLink>
                         <div className="vr" />
 
                         <NavLink
-                            activeStyle={{
-                                fontWeight: "bold",
-                                color: "red",
-                            }}
+                            activeStyle={active}
                             className="text-dark hover ms-3 text-decoration-none" to="/faq">FAQ</NavLink>
                     </Nav>
 

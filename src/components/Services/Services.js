@@ -28,7 +28,7 @@ const Services = ({ services, len }) => {
                                         <FontAwesomeIcon className="fontsize" icon={faLayerGroup} />
                                     </Card.Title>
                                     <Card.Text>
-                                        <h3 className="fw-bold">{service.name}</h3>
+                                        <h3 className="fw-bold text-decoration-none">{service.name}</h3>
                                         <h5>
                                             ${service.price}
                                         </h5>
