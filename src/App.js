@@ -11,7 +11,9 @@ import Home from './components/Home/Home';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import Course from './components/Course/Course';
+import NotFound from './components/NotFound/NotFound';
 import { useEffect, useState } from 'react';
+import Faq from './components/Faq/Faq';
 
 function App() {
   const [services, setServices] = useState([])
@@ -31,20 +33,23 @@ function App() {
     <Router>
       <Header />
       <Switch>
-        <Route path="/about">
+        <Route exact path="/about">
           <About />
         </Route>
-        <Route path="/service">
+        <Route exact path="/service">
           <Services services={services} />
         </Route>
-        <Route path="/course">
+        <Route exact path="/course">
           <Course courses={courses} />
         </Route>
-        <Route path="/faq">
-          <Services />
+        <Route exact path="/faq">
+          <Faq></Faq>
         </Route>
-        <Route path="/">
+        <Route exact path="/">
           <Home courses={courses} services={services} />
+        </Route>
+        <Route  path="*">
+          <NotFound></NotFound>
         </Route>
       </Switch>
       <Footer></Footer>

@@ -1,5 +1,4 @@
 .hover:hover{
-    color: rgb(219, 31, 219);
-    font-weight: bold;
-    margin-top: 10px;
+    color:red !important;
+    font-weight: bold ;
 }
