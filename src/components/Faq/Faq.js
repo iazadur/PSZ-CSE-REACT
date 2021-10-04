@@ -4,6 +4,7 @@ import { Accordion, Container } from 'react-bootstrap';
 const Faq = () => {
     return (
         <Container style={{ marginTop: "100px" }}>
+            <h1>Common Question About DUET Admission</h1>
             <Accordion defaultActiveKey="0">
                 <Accordion.Item eventKey="0">
                     <Accordion.Header>Accordion Item #1</Accordion.Header>
