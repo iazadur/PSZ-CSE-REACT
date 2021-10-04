@@ -23,7 +23,7 @@ const Course = ({courses,len}) => {
                    
                     {homeCourses.map((course, i) => (
 
-                        <Col>
+                        <Col key={i}>
                             <Card>
                                 <Card.Img variant="top" src={course.img} />
                                 <Card.Body>
@@ -36,7 +36,7 @@ const Course = ({courses,len}) => {
                                         {course.name} from beginner to advanced
                                     </Card.Text>
                                 </Card.Body>
-                                <div class="card-footer d-flex justify-content-between align-items-center">
+                                <div className="card-footer d-flex justify-content-between align-items-center">
                                     <h4 className="fw-bloder fs-4" style={{ color: `${course.color}` }}>${course.price}</h4>
                                     <p className="fs-5 fw-normal">view details</p>
                                 </div>

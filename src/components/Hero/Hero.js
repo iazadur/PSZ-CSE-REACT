@@ -6,7 +6,7 @@ import './Hero.css'
 const Hero = () => {
     return (
         <>
-            <Container>
+            <Container style={{ marginTop:'100px'}}>
                 <div className="hero my-5">
                     <Row>
                         <Col xs={12} md={6} className="d-flex justify-content-center align-items-center hero-text" >
@@ -20,7 +20,7 @@ const Hero = () => {
                             </div>
                         </Col>
                         <Col xs={12} md={6} className="d-flex justify-content-center align-items-center">
-                            <Image className="hero-img" src={hero} fluid ></Image>
+                            <Image className="hero-img" src={hero} fluid  />
                         </Col>
                     </Row>
                 </div>

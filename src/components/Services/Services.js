@@ -21,7 +21,7 @@ const Services = ({ services, len }) => {
                 </div>
                 <Row xs={1} md={2} lg={4} className="g-4">
                     {homeServices.map((service, i) => (
-                        <Col key={i} >
+                        <Col key={service.id} >
                             <Card style={{ backgroundColor: `${service.color}` }} className="p-3">
                                 <Card.Body className="text-white">
                                     <Card.Title>
