@@ -96,7 +96,7 @@ const About = () => {
             <br /><br /><br />
 
             <Row>
-                <Col>
+                <Col className="mb-5">
                     <PieChart width={400} height={400}>
                         <Pie
                             data={dataPie}
@@ -116,7 +116,7 @@ const About = () => {
                 </Col>
 
 
-                <Col>
+                <Col className="my-3">
                     <LineChart
                         width={700}
                         height={400}
