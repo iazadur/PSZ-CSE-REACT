@@ -1,7 +1,9 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faStar, faClock } from '@fortawesome/free-solid-svg-icons'
+import { faClock } from '@fortawesome/free-solid-svg-icons'
 import { Card, Col, Container, Row } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import Rating from 'react-rating';
+import './Course.css'
 
 const Course = ({ courses, len }) => {
 
@@ -19,7 +21,7 @@ const Course = ({ courses, len }) => {
                     <h1 className="fontsize fw-bolder">Find The Right <br /> Online Course For You</h1>
                     <p className="text-muted">You don't have to struggle alone, you've got our assistance and help.</p>
                 </div>
-                <Row xs={1} md={4} lg={4} className="g-4">
+                <Row xs={1} md={2} lg={3} xl={4} className="g-4">
 
                     {homeCourses.map((course, i) => (
 
@@ -29,7 +31,13 @@ const Course = ({ courses, len }) => {
                                 <Card.Body>
                                     <div className="d-flex justify-content-between">
                                         <p><FontAwesomeIcon icon={faClock} /> {course.duration}</p>
-                                        <p><FontAwesomeIcon icon={faStar} /> {course.rating}</p>
+                                        <p>
+                                            <Rating
+                                                initialRating={course.rating}
+                                                emptySymbol="far fa-star icon-color"
+                                                fullSymbol="fas fa-star icon-color"
+                                                readonly></Rating> ({course.rating})
+                                        </p>
                                     </div>
                                     <Card.Title>{course.name}</Card.Title>
                                     <Card.Text>
