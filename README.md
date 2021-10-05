@@ -11,7 +11,7 @@
     ▶ Common Question About DUET Addmission
     ▶ See About with Graph chart
 
-    
+
 ## Technology
     ▶ React js
     ▶ React Router Dom
@@ -20,3 +20,5 @@
     ▶ Rechart
     ▶ React FontAwesome
     ▶ React Bootstrap
+    ▶ React Hooks
+    ▶ Routing Hooks
