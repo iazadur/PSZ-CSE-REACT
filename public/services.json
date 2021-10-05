@@ -1,10 +1,10 @@
 [
-    {"id":"01","name":"Algebra","price":"1000","status":"offline","subject":"Math","color":"#2D69F0"},
-    {"id":"02","name":"Trigonometry","price":"600","status":"offline","subject":"Math","color":"#DD246E"},
-    {"id":"03","name":"Geometry","price":"1000","status":"offline","subject":"Math","color":"#8007E6"},
-    {"id":"04","name":"Calculas","price":"1000","status":"offline","subject":"Math","color":"#0CAE74"},
-    {"id":"05","name":"Algebra","price":"1000","status":"offline","subject":"Math","color":"#2D69F0"},
-    {"id":"06","name":"Trigonometry","price":"600","status":"offline","subject":"Math","color":"#DD246E"},
-    {"id":"07","name":"Geometry","price":"1000","status":"offline","subject":"Math","color":"#8007E6"},
-    {"id":"08","name":"Calculas","price":"1000","status":"offline","subject":"Math","color":"#0CAE74"}
+    {"id":"01","name":"Hand Notes","price":"1000","status":"offline","subject":"Math","color":"#2D69F0"},
+    {"id":"02","name":"24/7 Mentoring","price":"600","status":"offline","subject":"Math","color":"#DD246E"},
+    {"id":"03","name":"Special Batch","price":"1000","status":"offline","subject":"Math","color":"#8007E6"},
+    {"id":"04","name":"Online Support","price":"1000","status":"offline","subject":"Math","color":"#0CAE74"},
+    {"id":"05","name":"Heath Support","price":"1000","status":"offline","subject":"Math","color":"#2D69F0"},
+    {"id":"06","name":"Special Teachers","price":"600","status":"offline","subject":"Math","color":"#DD246E"},
+    {"id":"07","name":"Focus Learning","price":"1000","status":"offline","subject":"Math","color":"#8007E6"},
+    {"id":"08","name":"Mental Support","price":"1000","status":"offline","subject":"Math","color":"#0CAE74"}
 ]

@@ -38,7 +38,7 @@ const Course = ({ courses, len }) => {
                                 </Card.Body>
                                 <div className="card-footer d-flex justify-content-between align-items-center">
                                     <h4 className="fw-bloder fs-4" style={{ color: `${course.color}` }}>${course.price}</h4>
-                                    <Link to={`/course/${course.id}`} className="fs-6 fw-normal">view details</Link>
+                                    <Link to={`/course/${course.id}`} className="fs-6 fw-normal">View details</Link>
                                 </div>
                             </Card>
                         </Col>

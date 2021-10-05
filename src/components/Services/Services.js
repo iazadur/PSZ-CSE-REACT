@@ -29,9 +29,9 @@ const Services = ({ services, len }) => {
                                     </Card.Title>
                                     <Card.Text>
                                         <h3 className="fw-bold text-decoration-none">{service.name}</h3>
-                                        <h5>
+                                        {/* <h5>
                                             ${service.price}
-                                        </h5>
+                                        </h5> */}
                                     </Card.Text>
                                 </Card.Body>
                             </Card>

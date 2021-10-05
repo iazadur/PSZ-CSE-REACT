@@ -3,7 +3,8 @@
     {"id":"02","name":"Chemistry","price":"2500","status":"offline","color":"#DD246E", "duration":"60 days", "rating":"4.9","img":"https://themepure.net/template/educal/educal/assets/img/course/course-3.jpg"},
     {"id":"03","name":"English","price":"1500","status":"offline","color":"#0CAE74", "duration":"60 days", "rating":"4","img":"https://themepure.net/template/educal/educal/assets/img/course/course-4.jpg"},
     {"id":"04","name":"Mathmatics","price":"3500","status":"offline","color":"#8007E6", "duration":"60 days", "rating":"5","img":"https://themepure.net/template/educal/educal/assets/img/course/course-6.jpg"},
-    {"id":"05","name":"English","price":"1500","status":"offline","color":"#0CAE74", "duration":"60 days", "rating":"4.5","img":"https://themepure.net/template/educal/educal/assets/img/course/course-5.jpg"},
-    {"id":"06","name":"Mathmatics","price":"3500","status":"offline","color":"#8007E6", "duration":"60 days", "rating":"3","img":"https://themepure.net/template/educal/educal/assets/img/course/course-3.jpg"},
-    {"id":"07","name":"Mathmatics","price":"3500","status":"offline","color":"#8007E6", "duration":"60 days", "rating":"4.1","img":"https://themepure.net/template/educal/educal/assets/img/course/course-1.jpg"}
+    {"id":"05","name":"Geometry","price":"100","status":"offline","color":"#0CAE74", "duration":"60 days", "rating":"4.5","img":"https://themepure.net/template/educal/educal/assets/img/course/course-5.jpg"},
+    {"id":"06","name":"Algebra","price":"1000","status":"offline","color":"#8007E6", "duration":"60 days", "rating":"3","img":"https://themepure.net/template/educal/educal/assets/img/course/course-3.jpg"},
+    {"id":"07","name":"Trigonometry","price":"600","status":"offline","color":"#2D69F0", "duration":"60 days", "rating":"4.1","img":"https://themepure.net/template/educal/educal/assets/img/course/course-1.jpg"},
+    {"id":"06","name":"Calculus","price":"1000","status":"offline","color":"#DD246E", "duration":"60 days", "rating":"3","img":"https://themepure.net/template/educal/educal/assets/img/course/course-3.jpg"}
 ]
