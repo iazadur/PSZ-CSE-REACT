@@ -13,7 +13,7 @@ const Hero = () => {
                             <div className='text-area'>
                                 <h6 className="fs-5 text-primary fw-bold">Why Choses Me</h6>
                                 <h1 className="fw-bolder fontsize text-black">Tools For Teachers And Learners</h1>
-                                <p className="text-muted">Oxford chimney pot Eaton faff about blower blatant brilliant, bubble and squeak he legged it Charles bonnet arse at public school bamboozled.</p>
+                                <p className="text-muted">Dhaka University of Engineering & Technology, Gazipur.To be the center of excellence for quality education, research and innovation.</p>
                                 <button className="btn hero-btn py-2 px-5 text-white fw-bolder text-uppercase">join for us</button>
                                 <button className="btn  py-2 px-5 ms-2 text-black fw-normal text-uppercase">learn more</button>
 
