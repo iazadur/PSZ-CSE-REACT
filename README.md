@@ -1,7 +1,7 @@
 # DUET Admission Coaching Center PSZ
 ### (Assignment - 09)
 
-##### Live Server: [Dentist Specialist](https://pszcse.netlify.app/) 
+##### Live Server: [PSZ-CSE](https://pszcse.netlify.app/) 
 
 
 ## Features
